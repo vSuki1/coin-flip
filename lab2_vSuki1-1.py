@@ -13,3 +13,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+play = input("Do you want to toss the coins? y or n): ")
+
+while (play == "y" or play == "Y"):
+
+    player1.toss_coin()
+    player2.toss_coin()
+
+    
