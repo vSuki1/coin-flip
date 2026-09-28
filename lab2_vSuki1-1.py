@@ -42,6 +42,16 @@ def main():
             break
        
         play = input("do you want to toss the coins? y or n): ")
+    print("final score is")
+    print(f"{player1.get_name()} has {player1.get_wallet()} coins.")
+    print(f"{player2.get_name()} has {player2.get_wallet()} coins.")
+
+    if player1.get_wallet() > player2.get_wallet():
+        print(f"{player1.get_name()} wins!")
+    elif player2.get_wallet() > player1.get_wallet():
+        print(f"{player2.get_name()} wins!")
+    else:
+        print("It's a tie!")
 
 if __name__ == "__main__":
     main()
