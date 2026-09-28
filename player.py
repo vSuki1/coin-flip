@@ -10,7 +10,7 @@ from coin import Coin
 class Player:
     def __init__(self, name, wallet):
         self.__name = name
-        self.wallet = wallet
+        self.wallet = 20
         self.coin = Coin()
     def toss_coin(self):
         self.coin.toss()
