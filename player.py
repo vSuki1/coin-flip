@@ -8,7 +8,7 @@ Represents a player with a name, wallet of coins, and a Coin object.
 from coin import Coin
 
 class Player:
-    def __init__(self, name, wallet):
+    def __init__(self, name):
         self.__name = name
         self.wallet = 20
         self.coin = Coin()
